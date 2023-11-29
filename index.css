@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    width: 100%;
+    padding: 0 10% 0 0;
+    justify-content: space-between;
+}
+
+.hobbies_nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.hobbies_main li {
+    margin-bottom: 10%;
+}
+
+
+.wrapper {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.wrapper aside {
+    padding: 5%;
+}
