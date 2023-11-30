@@ -41,6 +41,10 @@ body {
     color: #A096D3;
 }
 
+.odessio__section_wrapper{
+background-image: url(images/world_image.jpg);
+}
+
 .odessio__hero{
     background-image: url(images/index_penpal_four.jpg);
     background-attachment: inherit;
