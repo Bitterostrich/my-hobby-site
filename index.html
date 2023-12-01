@@ -20,7 +20,7 @@
               <div class="relative flex h-16 items-center justify-between">
                 <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
                   <!-- Mobile menu button-->
-                  <button type="button"  class="relative inline-flex items-center justify-center rounded-md text-white p-2 hover:text-gray-800 hover:opacity-50 transition duration-300 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+                  <button onclick="toggleMobileMenu()" type="button"  class="relative inline-flex items-center justify-center rounded-md text-white p-2 hover:text-gray-800 hover:opacity-50 transition duration-300 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
                     <span class="absolute -inset-0.5"></span>
                     <span class="sr-only">Open main menu</span>
                     <!--
@@ -131,7 +131,7 @@
 
 
         <div class="text-center">
-          <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Odessio, <br>
+          <h1 class="odessio__index-h1 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Odessio, <br>
             blooming friendships with <span class="odessio__text-highlight_two">Penpalry!</span></h1>
           <p class="mt-6 text-lg leading-8 text-gray-600">We believe in reviving the enchanting experience of penpal communication, a cherished but fading tradition, by connecting like-minded individuals and strangers across the globe.</p>
           <div class="mt-10 flex items-center justify-center gap-x-6">
@@ -202,10 +202,10 @@
   </section>
 <div class="odessio__section_wrapper">
   <section>
-    <div class="px-4 py-32 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pb-18 lg:pt-26">
+    <div class="px-4 pt-32 pb-18 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pb-18 lg:pt-26">
       <div class="odessio__connect_section flex flex-col mb-6 lg:justify-between lg:flex-row md:mb-8">
         <h2 class="max-w-lg mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none md:mb-6 group">
-          <span class="inline-block mb-1 sm:mb-4">
+          <span class="inline-block leading-20 mb-1 sm:mb-4">
             Friendships,<br class="hidden md:block" />
             easier with <span class="odessio__text-highlight_two">Odessio</span>.
           </span>
@@ -258,7 +258,7 @@
   <section>
     <div class="px-4 pt-4 pb-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pt-6 lg:pb-24">
       <div class="mx-auto sm:text-center lg:max-w-2xl">
-        <div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+        <div class="max-w-xl mb-8 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
 
           <h2 class="odessio__font-color max-w-lg mb-6 font-sans text-lg font-extra  leading-none tracking-tight text-\[\#FEAC43\] sm:text-4xl md:mx-auto">
             <span class="relative inline-block">
@@ -384,6 +384,7 @@
   function toggleMobileMenu() {
     var mobileMenu = document.getElementById('mobile-menu');
     mobileMenu.classList.toggle('hidden');
+    console.log('hello')
   }
 </script>
 

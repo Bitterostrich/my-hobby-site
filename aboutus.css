@@ -1,3 +1,14 @@
 .odessio__aboutus-section_wrapper {
 
 }
+
+.odessio__aboutus-section_end {
+    background-color: #f9b792;
+    background-image: linear-gradient(to left, #fab48c, #ffc6a0 )
+}
+
+body {
+    font-family: sans-serif;
+
+}
+

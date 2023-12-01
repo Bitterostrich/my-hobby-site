@@ -13,7 +13,7 @@
     width: 50%;
 }
 
-body {
+body, head {
     font-family: sans-serif;
 }
 
@@ -45,6 +45,11 @@ body {
 background-image: url(images/index_penpal_four.jpg);
 background-position: center;
 background-size: cover;
+
+}
+
+.odessio__index-h1 {
+    line-height: 5rem!important;
 
 }
 
