@@ -38,20 +38,39 @@ body {
 }
 
 .odessio__text-highlight_two {
-    color: #A096D3;
-}
-
-.odessio__section_wrapper{
-background-image: url(images/world_image.jpg);
+    color: #3b82f6;
 }
 
 .odessio__hero{
-    background-image: url(images/index_penpal_four.jpg);
-    background-attachment: inherit;
-    background-repeat: repeat;
+background-image: url(images/index_penpal_four.jpg);
+background-position: center;
+background-size: cover;
+
+}
+
+.odessio__section_wrapper {
+
+    background-image: url(images/aboutus_bg.jpg);
+    background-position: center;
     background-size: cover;
+}
+
+.odessio__section_wrapper:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index: -10;
+
+    transform: scaleX(-1);
 }
 
 .odessio__connect_section {
     justify-content: space-around!important;
+}
+
+.odessio__font-color{
+    color: #000000;
 }
